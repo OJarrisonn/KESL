@@ -31,11 +31,17 @@
 
         .team-card {
             display: block;
-            border-width: 4px;
-            border-style: solid;
-            border-color: #7af6b5;
             width: 15vw;
             height: 18vw;
+        }
+
+        .team-card:hover {
+            background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+        }
+
+        .team-card:hover h3 {
+            background-image: linear-gradient(0deg, #fff, #fff);
+            color: white;
         }
 
         .team-icon {
@@ -81,6 +87,7 @@
             padding-right: 5%;
 
             background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+            background-size: cover;
             -webkit-background-clip: text;
             -moz-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -126,6 +133,30 @@
         }
 
         .navbar a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: larger;
+
+            width: 20vw;
+            height: 5vw;
+        }
+
+        button:hover {
+            background-image: none;
             background-color: white;
             color: black;
         }
@@ -289,6 +320,7 @@
 
     <section id="fixtures">
         <h1>FIXTURES</h1>
+        <button>See All</button>
     </section>
 
     <br>
