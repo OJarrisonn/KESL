@@ -2,10 +2,305 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta id="viewport" content="width=device-width, initial-scale=1">
     <title>KASA European Superleague</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        .header {
+            padding: 100px;
+            background-image: url('imgs/bg-black-and-ball.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .logo-rtm {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .navbar {
+            background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+            overflow: hidden;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+        }
+
+        .team-card {
+            display: block;
+            border-width: 4px;
+            border-style: solid;
+            border-color: #7af6b5;
+            width: 15vw;
+            height: 18vw;
+        }
+
+        .team-icon {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 15vw 15vw 15vw 15vw 15vw;
+            grid-template-rows: 18vw 18vw 18vw 18vw;
+            margin-left: 11vw;
+            margin-right: 11vw;
+        }
+        
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            text-align: center;
+            font-size: 4vw;
+            color: white;
+        }
+
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            text-align: center;
+            font-size: large;
+            color: white;
+        }
+
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            text-align: right;
+            font-size: 2vw;
+            padding-right: 5%;
+
+            background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+        }
+
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: medium;
+            color: white;
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: medium;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .navbar a.navright {
+            float: right;
+        }
+
+        .navbar a.navcenter {
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .navbar a:hover {
+            background-color: white;
+            color: black;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>The Super League</h1>
-    <p>Welcome to KESL website, here you can see all statistics, lastest results, next fixtures and the standings</p>
+    <section id="home"></section>
+        <div class="header">
+            <img class="logo-rtm" src="imgs/logo-rtm-small.png" alt="ROAD TO MADRID">
+            <p>Welcome to KESL website, here you can see all statistics, lastest results, next fixtures and the standings.</p>
+            <p>KESL is the simulation of the suspended European Superleague, the matches are simulated in FIFA 19 <small>(because we're poor and don't have money to buy FIFA 21)</small>.</p>
+            <p>There are <strong>two groups</strong> with <strong>ten clubs</strong> in each group. The clubs play againts other clubs from the same group in home-away matches. 
+                At the end of the <strong>18 rounds</strong>, the <strong>top-3</strong> of each group auto classifies to the <strong>Round of 8</strong>, 
+                the fourth and fifth of each group goes to a <strong>home-away play-off</strong>.</p>
+        </div>
+    </section>
+
+    <div class="navbar">
+        <a href="#home" class="navcenter">Home</a>
+        <a href="#teams">Teams</a>
+        <a href="#fixtures">Fixtures</a>
+        <a href="#results" class="navright">Latest Results</a>
+        <a href="#top-stats" class="navright">Top Stats</a>
+    </div>
+
+    <br>
+
+    <section id="teams">
+        <h1>TEAMS</h1>
+        <div class="grid">
+            <div class="team-card">
+                <img src="imgs/teams/arsenal.png" alt="ARSENAL" class="team-icon">
+                <h2>ARSENAL</h2>
+                <h3>ENG</h3>
+            </div>
+    
+            <div class="team-card">
+                <img src="imgs/teams/atalanta.png" alt="ATALANTA" class="team-icon">
+                <h2>ATALANTA</h2>
+                <h3>ITA</h3>
+            </div>
+    
+            <div class="team-card">
+                <img src="imgs/teams/atletico_madrid.png" alt="ATLÉTICO DE MADRID" class="team-icon">
+                <h2>ATLÉTICO DE MADRID</h2>
+                <h3>SPA</h3>
+            </div>
+    
+            
+            <div class="team-card">
+                <img src="imgs/teams/barcelona.png" alt="BARCELONA" class="team-icon">
+                <h2>BARCELONA</h2>
+                <h3>SPA</h3>
+            </div>
+    
+            
+            <div class="team-card">
+                <img src="imgs/teams/bayern_munchen.png" alt="BAYERN MÜNCHEN" class="team-icon">
+                <h2>BAYERN MÜNCHEN</h2>
+                <h3>GER</h3>
+            </div>
+    
+            
+            <div class="team-card">
+                <img src="imgs/teams/bvb.png" alt="BVB" class="team-icon">
+                <h2>BORUSSIA DORTMUND</h2>
+                <h3>GER</h3>
+            </div>
+    
+            
+            <div class="team-card">
+                <img src="imgs/teams/chelsea.png" alt="CHELSEA" class="team-icon">
+                <h2>CHELSEA</h2>
+                <h3>ENG</h3>
+            </div>
+    
+            
+            <div class="team-card">
+                <img src="imgs/teams/inter_milano.png" alt="INTER MILANO" class="team-icon">
+                <h2>INTER MILANO</h2>
+                <h3>ITA</h3>
+            </div>
+    
+            
+            <div class="team-card">
+                <img src="imgs/teams/juventus.png" alt="JUVENTUS" class="team-icon">
+                <h2>JUVENTUS</h2>
+                <h3>ITA</h3>
+            </div>    
+
+            <div class="team-card">
+                <img src="imgs/teams/leicester_city.png" alt="LEICESTER CITY" class="team-icon">
+                <h2>LEICESTER CITY</h2>
+                <h3>ENG</h3>
+            </div>
+            
+            <div class="team-card">
+                <img src="imgs/teams/lille.png" alt="LILLE" class="team-icon">
+                <h2>LILLE</h2>
+                <h3>FRA</h3>
+            </div>
+            
+            <div class="team-card">
+                <img src="imgs/teams/liverpool.png" alt="LIVERPOOL" class="team-icon">
+                <h2>LIVERPOOL</h2>
+                <h3>ENG</h3>
+            </div>
+            
+            <div class="team-card">
+                <img src="imgs/teams/machester_city.png" alt="MANCHESTER CITY" class="team-icon">
+                <h2>MANCHESTER CITY</h2>
+                <h3>ENG</h3>
+            </div>
+            
+            <div class="team-card">
+                <img src="imgs/teams/manchester_united.png" alt="MANCHESTER UNITED" class="team-icon">
+                <h2>MANCHESTER UNITED</h2>
+                <h3>ENG</h3>
+            </div>
+            
+            <div class="team-card">
+                <img src="imgs/teams/milan.png" alt="MILAN" class="team-icon">
+                <h2>MILAN</h2>
+                <h3>ITA</h3>
+            </div>
+
+            <div class="team-card">
+                <img src="imgs/teams/psg.png" alt="PARIS SAINT-GERMAIN" class="team-icon">
+                <h2>PARIS SAINT-GERMAIN</h2>
+                <h3>FRA</h3>
+            </div>
+            
+            <div class="team-card">
+                <img src="imgs/teams/rb_leipzig.png" alt="RB LEIPZIG" class="team-icon">
+                <h2>RB LEIPZIG</h2>
+                <h3>GER</h3>
+            </div>
+            
+            <div class="team-card">
+                <img src="imgs/teams/real_madrid.png" alt="REAL MADRID" class="team-icon">
+                <h2>REAL MADRID</h2>
+                <h3>SPA</h3>
+            </div>
+            
+            <div class="team-card">
+                <img src="imgs/teams/sevilla.png" alt="SEVILLA" class="team-icon">
+                <h2>SEVILLA</h2>
+                <h3>SPA</h3>
+            </div>
+            
+            <div class="team-card">
+                <img src="imgs/teams/tottenham.png" alt="TOTTENHAM HOTSPUR" class="team-icon">
+                <h2>TOTTENHAM HOTSPUR</h2>
+                <h3>ENG</h3>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="fixtures">
+        <h1>FIXTURES</h1>
+    </section>
+
+    <br>
+
+    <section id="results">
+        <h1>LASTEST RESULTS</h1>
+    </section>
+    
+    <br>
+
+    <section id="top-stats">
+        <h1>TOP STATISTICS</h1>
+    </section>
 </body>
 </html>
