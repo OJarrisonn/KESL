@@ -1,3 +1,0 @@
-# KASA European Superleague
-
-Hello
