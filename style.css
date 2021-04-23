@@ -1,5 +1,5 @@
 header {
-    padding: 100px;
+    padding: 15vw 10vw;
     background-image: url('imgs/bg-black-and-ball.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,10 +27,12 @@ nav {
     overflow: hidden;
     position: sticky;
     position: -webkit-sticky;
+    z-index: 9;
     top: 0;
 }
 
 .team-card {
+    position: relative;
     display: block;
     width: 15vw;
     height: 18vw;
@@ -41,8 +43,7 @@ nav {
 }
 
 .team-card:hover h3 {
-    background-image: linear-gradient(0deg, #fff, #fff);
-    color: white;
+    background-image: linear-gradient(135deg, #fff, #fff);
 }
 
 .team-icon {
@@ -56,13 +57,23 @@ nav {
 .teams-grid {
     display: grid;
     grid-template-columns: 15vw 15vw 15vw 15vw 15vw;
-    grid-template-rows: 18vw 18vw 18vw 18vw;
+    grid-template-rows: 20vw 20vw 20vw 20vw;
     margin-left: 11vw;
     margin-right: 11vw;
 }
 
 body {
     background-color: black;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 5vw 95vw;
+
+    background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+    height: 5vw;
+    text-align: center;
+    margin-top: 5vw;
 }
 
 h1 {
@@ -77,16 +88,18 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-align: center;
-    font-size: large;
+    font-size: 1.5vw;
     color: white;
 }
 
 h3 {
+    position: absolute;
+    bottom: -6.5%;
+    right: 5%;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     text-align: right;
     font-size: 2vw;
-    padding-right: 5%;
 
     background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
     background-size: cover;
@@ -115,7 +128,7 @@ h4 {
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: medium;
+    font-size: 1vw;
     color: white;
     margin-right: 20%;
     margin-left: 20%;
@@ -173,6 +186,26 @@ button {
     border: none;
 }
 
+.round-header {
+    display: grid;
+    grid-template-columns: 10vw 25vw 10vw;
+    grid-template-rows: 10vw;
+    margin-left: 27.5vw;
+    margin-right: 27.5vw;
+}
+
+.round-header button {
+    width: 10vw;
+    height: 10vw;
+
+    background-image: none;
+    background-color: #000;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+}
+
 .fixtures-rows {
     display: grid;
     grid-template-rows: 15vw 15vw 15vw 15vw 15vw;
@@ -190,4 +223,52 @@ button:hover {
     background-image: none;
     background-color: white;
     color: black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+}
+
+tr {
+    color: #fff;
+    background-color: black;
+    height: 4vw;
+}
+
+tr.header {
+    height: 4.5vw;    
+    background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+}
+
+tr:nth-child(even) {
+    background-image: linear-gradient(135deg, #0a301c, #410944);
+}
+
+th {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    border-style: none;
+}
+
+th.larger {
+    padding-left: 1vw;
+    padding-right: 30vw;
+}
+
+td {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: right;
+    font-size: 2vw;
+    color: white;
+}
+
+td.larger {
+    text-align: left;
 }

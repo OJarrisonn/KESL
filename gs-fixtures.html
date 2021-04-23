@@ -11,12 +11,12 @@
     <link rel="shortcut icon" href="imgs/favicon.png" type="image/png">
     <script src="loadFixtures.js"></script>
 
-    <title>KESL Fixtures</title>
+    <title>KESL Group Stage Fixtures</title>
 </head>
-<body onload="loadFixtures();">
+<body onload="loadGroupStageFixtures();">
     <header>
         <img class="logo-rtm" src="imgs/logo-rtm-small.png" alt="ROAD TO MADRID">
-        <h1>FIXTURES</h1>
+        <h1>GROUP STAGE FIXTURES</h1>
     </header>
     <nav>
         <a href="index.html#home" class="navcenter">Home</a>
@@ -36,12 +36,17 @@
     </div>
     </template>
 
-    <template id="separator">
-        <br>
-        <div class="separator"></div>
-        <br>
-    </template>
+    <div class="round-header">
+        <button onclick="changeRound(-1); loadGroupStageFixtures();">&lt;</button>
+        <h1 id="round-name"></h1>
+        <button onclick="changeRound(1); loadGroupStageFixtures();">&gt;</button>
+    </div>
 
-
+    <div id="round-board" class="round-board" onload="loadGroupStageFixtures();"></div>
+    
+    <footer>
+        <img src="imgs/favicon.png" alt="LOGO" style="width: 4vw; padding: 0.5vw;">
+        <p style="position:relative; padding-top: 1vw; left: -3.5vw;">KASA European Superleague&copy;</p>
+    </footer>
 </body>
 </html>
