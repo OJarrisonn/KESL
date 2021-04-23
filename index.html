@@ -6,9 +6,12 @@
     <title>KASA European Superleague</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sheets/basics.css">
+    <link rel="stylesheet" href="sheets/team_stuff.css">
+    <link rel="stylesheet" href="sheets/text_stuff.css">
+
     <link rel="shortcut icon" href="imgs/favicon.png" type="image/png">
-    <script src="loadTeams.js"></script>
+    <script src="scripts/loadTeams.js"></script>
 </head>
 <body onload="loadTeamsCards();">
     <section id="home"></section>
@@ -31,7 +34,7 @@
     </nav>
 
     <template id="template-team-card">
-        <div class="team-card">
+        <div id="team-card" class="team-card">
             <img id="team-card-image" src="" alt="" class="team-icon">
             <h2 id="team-card-name"></h2>
             <h3 id="team-card-country"></h3>

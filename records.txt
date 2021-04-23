@@ -1,0 +1,74 @@
+    {
+        name: "GROUP B",
+        type: "group",
+        stands: [
+            {
+                id: "chelsea",
+                stats: [0, 0, 0, 0, 0, 0, 0]
+            },
+            {
+                id: "manchester_city",
+                stats: [0, 0, 0, 0, 0, 0, 0]
+            },
+            {
+                id: "bayern_munchen",
+                stats: [0, 0, 0, 0, 0, 0, 0]
+            },
+            {
+                id: "liverpool",
+                stats: [0, 0, 0, 0, 0, 0, 0]
+            },
+            {
+                id: "manchester_united",
+                stats: [0, 0, 0, 0, 0, 0, 0]
+            },
+            {
+                id: "milan",
+                stats: [0, 0, 0, 0, 0, 0, 0]
+            },
+            {
+                id: "arsenal",
+                stats: [0, 0, 0, 0, 0, 0, 0]
+            },
+            {
+                id: "bvb",
+                stats: [0, 0, 0, 0, 0, 0, 0]
+            },
+            {
+                id: "lille",
+                stats: [0, 0, 0, 0, 0, 0, 0]
+            },
+            {
+                id: "psg",
+                stats: [0, 0, 0, 0, 0, 0, 0]
+            }
+        ]
+    }
+    
+    
+    {
+        name: "PLAY-OFF",
+        type: "knockout",
+        stands: [
+            {
+                team1: {
+                    id: "juventus",
+                    goals: "-"
+                },
+                team2: {
+                    id: "milan",
+                    goals: "-"
+                }
+            },
+            {
+                team1: {
+                    id: "manchester_united",
+                    goals: "-"
+                },
+                team2: {
+                    id: "leicester_city",
+                    goals: "-"
+                }
+            }
+        ]
+    }

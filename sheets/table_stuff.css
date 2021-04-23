@@ -1,0 +1,49 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+}
+
+tr {
+    color: #fff;
+    background-color: black;
+    height: 4vw;
+}
+
+tr.header {
+    height: 4.5vw;    
+    background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+}
+
+tr:nth-child(even) {
+    background-image: linear-gradient(135deg, #0a301c, #410944);
+}
+
+th {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    border-style: none;
+}
+
+th.larger {
+    padding-left: 1vw;
+    padding-right: 30vw;
+}
+
+td {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: right;
+    font-size: 2vw;
+    color: white;
+    padding-right: 2vw;
+}
+
+td.larger {
+    text-align: left;
+    padding-left: 2vw;
+}

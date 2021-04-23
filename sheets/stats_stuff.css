@@ -1,0 +1,13 @@
+#team-stats {
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
+    grid-template-rows: 10vw 15vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+p.centered, h4.centered {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}

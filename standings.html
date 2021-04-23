@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sheets/basics.css">
+    <link rel="stylesheet" href="sheets/table_stuff.css">
+    <link rel="stylesheet" href="sheets/team_stuff.css">
+    <link rel="stylesheet" href="sheets/text_stuff.css">
+    
     <link rel="shortcut icon" href="imgs/favicon.png" type="image/png">
-    <script src="loadStandings.js"></script>
+    <script src="scripts/data/standings.js"></script>
+    <script src="scripts/loadStandings.js"></script>
 
     <title>KESL Standings</title>
 </head>
@@ -17,6 +22,18 @@
         <img class="logo-rtm" src="imgs/logo-rtm-small.png" alt="ROAD TO MADRID">
         <h1>STANDINGS</h1>
     </header>
+
+    <template id="knockout-standing">
+        <div class="knockout-columns">
+            <img id="img-team1" src="" alt="" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto; width: 10vw;">
+            <h2 id="name-team1" style="text-align: right; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;"></h2>
+            <h2 id="goals-team1" style="text-align: center; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;"></h2>
+            <h4>X</h4>
+            <h2 id="goals-team2" style="text-align: center; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;"></h2>
+            <h2 id="name-team2" style="text-align: left; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;"></h2>
+            <img id="img-team2" src="" alt="" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto; width: 10vw;">
+        </div>
+    </template>
 
     <nav>
         <a href="index.html#home" class="navcenter">Home</a>

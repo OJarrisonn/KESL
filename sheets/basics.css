@@ -1,0 +1,94 @@
+header {
+    padding: 5vw 10vw;
+    background-image: url('../imgs/bg-black-and-ball.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 5vw 95vw;
+
+    background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+    height: 5vw;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+nav {
+    background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 9;
+    top: 0;
+}
+
+nav a {
+    float: left;
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a.navright {
+    float: right;
+}
+
+nav a.navcenter {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+
+    width: 20vw;
+    height: 5vw;
+    border: none;
+}
+
+button:hover {
+    background-image: none;
+    background-color: white;
+    color: black;
+}
+
+.logo-rtm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

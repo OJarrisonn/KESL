@@ -24,8 +24,6 @@ function loadTeamsCards() {
     let tg = document.getElementById("teams-grid");
 
     teams.forEach(t => {
-        console.log(t)
-    
         let tmplTC = document.getElementById("template-team-card");
         let tcNode = document.importNode(tmplTC.content, true);
 
@@ -45,6 +43,9 @@ function loadTeamsCards() {
 
         h2.innerHTML = t[1];
         h3.innerHTML = t[2];
+
+        let div = tcNode.getElementById("team-card");
+        div.setAttribute('onclick', 'location.href=\"teams-stats.html?team='+t[0]+'\";')
 
         tg.appendChild(tcNode);
     });
