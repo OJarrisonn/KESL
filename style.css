@@ -1,4 +1,4 @@
-.header {
+header {
     padding: 100px;
     background-image: url('imgs/bg-black-and-ball.jpg');
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
     margin-right: auto;
 }
 
-.navbar {
+nav {
     background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
     overflow: hidden;
     position: sticky;
@@ -121,7 +121,7 @@ p {
     margin-left: 20%;
 }
 
-.navbar a {
+nav a {
     float: left;
     display: block;
     padding-left: 5%;
@@ -137,11 +137,11 @@ p {
     text-decoration: none;
 }
 
-.navbar a.navright {
+nav a.navright {
     float: right;
 }
 
-.navbar a.navcenter {
+nav a.navcenter {
     float: none;
     position: absolute;
     top: 50%;
@@ -149,7 +149,7 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.navbar a:hover {
+nav a:hover {
     background-color: white;
     color: black;
 }
