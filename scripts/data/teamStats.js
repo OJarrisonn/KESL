@@ -19,6 +19,14 @@ teams = {
                 assist: 0,
                 yc: 0,
                 rc: 0
+            },
+             {
+                name: 'Pierre-Emerick Aubameyang',
+                games: 15,
+                goals: 0,
+                assist: -1,
+                yc: 5,
+                rc: 2
             }
         ]
     },
