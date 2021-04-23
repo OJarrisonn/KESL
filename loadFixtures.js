@@ -122,6 +122,7 @@ const fixtures = [
 
 function loadFixtures() {
 
+    
     for (let fx = 0; fx < 90; fx++) {
         let sep = document.getElementById("separator");
         let snode = document.importNode(sep.content, true);
