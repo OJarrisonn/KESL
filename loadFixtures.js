@@ -122,13 +122,14 @@ const fixtures = [
 
 function loadFixtures() {
 
-    for (let fx = 0; fx < 180; fx++) {
-        let tmplFx = document.getElementById("fixture");
+    for (let fx = 0; fx < 90; fx++) {
         let sep = document.getElementById("separator");
         let snode = document.importNode(sep.content, true);
-        let node = document.importNode(tmplFx.content, true);
 
         for (let i = 0; i < 2; i++) {
+            let tmplFx = document.getElementById("fixture");
+            let node = document.importNode(tmplFx.content, true);
+
             let f = fixtures[fx];
 
             let ith = node.getElementById("img-team-home");
