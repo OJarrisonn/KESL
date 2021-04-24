@@ -319,6 +319,95 @@ teams = {
             yc: 0,
             rc: 0
         },
-        players: []
+        players: [
+            {
+                name: 'Hugo Lloris',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+             {
+                name: 'Toby Alderweireld',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            }, 
+            {
+                name: 'Davinson Sánchez',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+             {
+                name: 'Matt Doherty',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+             {
+                name: 'Sergio Reguilón',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+             {
+                name: 'Giovani Lo Celso',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+             {
+                name: 'Pierre-Emile Højbjerg',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Gareth Bale',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Tanguy Ndombelé',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Son Heung-min',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Harry Kane',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            }
+        ]
     },
 }
