@@ -51,5 +51,18 @@ results = [
             goals: 0,
             who: []
         }
+    },{
+        team1: {
+            id: "real_madrid",
+            goals: 1,
+            who: [
+            "Vinícius Júnior"
+            ]
+        },
+        team2: {
+            id: "leicester",
+            goals: 0,
+            who: []
+        }
     }
 ]
