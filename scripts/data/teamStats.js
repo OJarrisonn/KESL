@@ -406,9 +406,9 @@ teamsStats = {
         name: 'Fußball-Club Bayern München',
         country: 'GERMANY',
         team_stats: {
-            goals_scored: 0,
+            goals_scored: 1,
             goals_conceded: 0,
-            wins: 0,
+            wins: 1,
             draws: 0,
             loses: 0,
             yc: 0,
@@ -417,78 +417,85 @@ teamsStats = {
         players: [
             {
                 name: 'Manuel Neüer',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Benjamin Pavard',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Jerome Boateng',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'David Alaba',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Alphonso Davies',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Joshua Kimmich',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Leon Goretzka',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Serge Gnabry',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Thomas Müller',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Kingsley Coman',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Robert Lewandowski',
-                games: 0,
+                games: 1,
                 goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Leroy Sané',
+                games: 1,
+                goals: 1,
                 assist: 0,
                 yc: 0,
                 rc: 0
@@ -1104,90 +1111,97 @@ teamsStats = {
     },
     'liverpool': {
         name: 'Liverpool Football Club',
-        country: 'ITALY',
+        country: 'ENGLAND',
         team_stats: {
             goals_scored: 0,
-            goals_conceded: 0,
+            goals_conceded: 1,
             wins: 0,
             draws: 0,
-            loses: 0,
+            loses: 1,
             yc: 0,
             rc: 0
         },
         players: [
             {
-                name: 'Alisson',
-                games: 0,
+                name: 'Alisson Becker',
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Trent Alexander-Arnold',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Virgil van Dijk',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Joe Gomez',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Andrew Robertson',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Fabinho',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Jordan Henderson',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Thiago Alcântara',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Mohammed Salah',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Diogo Jota',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Sadio Mané',
-                games: 0,
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'James Milner',
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
