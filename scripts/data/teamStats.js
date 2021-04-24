@@ -675,77 +675,91 @@ teamsStats = {
         players: [
             {
                 name: 'Samir Handanovich',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Milan Shkriniar',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Stefan de Vrij',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Alessandro Bastoni',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Achraf Hakimi',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Nicolò Barella',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Marcelo Brozovic',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Arturo Vidal',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Ivan Perishic',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Romelu Lukaku',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Lautaro Martínez',
-                games: 0,
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Christian Eriksen',
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Ashley Young',
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
@@ -768,77 +782,98 @@ teamsStats = {
         players: [
             {
                 name: 'Wojciech Szczesny',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Matthijs de Ligt',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Leonardo Bonucci',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Giorgio Chiellini',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Juan Cuadrado',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Arthur Melo',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Weston McKennie',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Federico Chiesa',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Dejan Kulusevski',
-                games: 0,
+                games: 1,
                 goals: 0,
-                assist: 0,
+                assist: 1,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Paulo Dybala',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Cristiano Ronaldo',
-                games: 0,
+                games: 1,
+                goals: 1,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Álvaro Morata',
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Rodrigo Bentancur',
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Aaron Ramsey',
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
