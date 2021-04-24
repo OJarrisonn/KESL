@@ -23,5 +23,20 @@ results = [
             goals: 0,
             who: []
         }
+    },{
+        team1: {
+            id: "atalanta",
+            goals: 1,
+            who: [
+                "Papu Gómez"
+            ]
+        },
+        team2: {
+            id: "rb_leipzig",
+            goals: 1,
+            who: [
+            "Dani Olmo"
+            ]
+        }
     }
 ]
