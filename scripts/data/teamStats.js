@@ -953,7 +953,77 @@ teams = {
         },
         players: [
             {
-                name: 'Maignan',
+                name: 'Mike Maignan',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Zeki Çelik',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'José Fonte',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Tiago Djaló',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Domagoj Bradaric',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Jonathan Ikoné',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Benjamin André',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Renato Sanches',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Jonathan Bamba',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Jonathan David',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Burak Yilmaz',
                 games: 0,
                 goals: 0,
                 assist: 0,
