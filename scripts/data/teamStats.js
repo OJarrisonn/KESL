@@ -96,10 +96,10 @@ teamsStats = {
         name: 'Atalanta Bergamasca Calcio',
         country: 'ITALY',
         team_stats: {
-            goals_scored: 0,
-            goals_conceded: 0,
+            goals_scored: 1,
+            goals_conceded: 1,
             wins: 0,
-            draws: 0,
+            draws: 1,
             loses: 0,
             yc: 0,
             rc: 0
@@ -1592,10 +1592,10 @@ teamsStats = {
         name: 'RasenBallsport Leipzig',
         country: 'GERMANY',
         team_stats: {
-            goals_scored: 0,
-            goals_conceded: 0,
+            goals_scored: 1,
+            goals_conceded: 1,
             wins: 0,
-            draws: 0,
+            draws: 1,
             loses: 0,
             yc: 0,
             rc: 0
