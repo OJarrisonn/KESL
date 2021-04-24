@@ -107,79 +107,100 @@ teamsStats = {
         players: [
             {
                 name: 'Pierluigi Gollini',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Rafael Tolói',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'José Luis Palomino',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Berat Djimsiti',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Hans Hateboer',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Marten de Roon',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Remo Freuler',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Robin Gosens',
-                games: 0,
+                games: 1,
                 goals: 0,
-                assist: 0,
+                assist: 1,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Josip Ilichic',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Alejandro Gómez',
-                games: 0,
-                goals: 0,
+                games: 1,
+                goals: 1,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Duvan Zapata',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Mario Pasalic',
+                games: 1,
+                goals: 0,
+                assist:0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Luis Muriel',
+                games: 1,
+                goals: 0,
+                assist:0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Ruslan Malinovskyi',
+                games: 1,
+                goals: 0,
+                assist:0,
                 yc: 0,
                 rc: 0
             }
@@ -1582,79 +1603,100 @@ teamsStats = {
         players: [
             {
                 name: 'Péter Gulácsi',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Ibrahima Konaté',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Dayot Upamecano',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Marcel Halstenberg',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Nordi Mukiele',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
-                name: 'Macel Sabitzer',
-                games: 0,
+                name: 'Marcel Sabitzer',
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Kevin Kampl',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Angeliño',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Dani Olmo',
-                games: 0,
-                goals: 0,
+                games: 1,
+                goals: 1,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Alexander Sørloth',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Emil Forsberg',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Yussuf Poulsen',
+                games: 1,
+                goals: 0,
+                assist:0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Christopher Nkunku',
+                games: 1,
+                goals: 0,
+                assist:0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Amadou Haidara',
+                games: 1,
+                goals: 0,
+                assist:0,
                 yc: 0,
                 rc: 0
             }
