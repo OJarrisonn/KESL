@@ -60,11 +60,11 @@ var stands = [
             },
             {
                 id: "bayern_munchen",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                stats: [1, 1, 0, 0, 1, 0, 3]
             },
             {
                 id: "liverpool",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                stats: [1, 0, 0, 1, 0, 1, 0]
             },
             {
                 id: "manchester_united",
