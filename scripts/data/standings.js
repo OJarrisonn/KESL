@@ -14,11 +14,11 @@ var stands = [
             },
             {
                 id: "atalanta",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                stats: [1, 0, 1, 0, 1, 1, 1]
             },
             {
                 id: "rb_leipzig",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                stats: [1, 0, 1, 0, 1, 1, 1]
             },
             {
                 id: "real_madrid",
@@ -52,11 +52,11 @@ var stands = [
         stands: [
             {
                 id: "chelsea",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                stats: [1, 0, 1, 0, 0, 0, 1]
             },
             {
                 id: "manchester_city",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                stats: [1, 0, 1, 0, 0, 0, 1]
             },
             {
                 id: "bayern_munchen",
