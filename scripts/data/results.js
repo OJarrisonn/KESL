@@ -12,5 +12,16 @@ results = [
             goals: 0,
             who: []
         }
+    },{
+        team1: {
+            id: "chelsea",
+            goals: 0,
+            who: []
+        },
+        team2: {
+            id: "manchester_city",
+            goals: 0,
+            who: []
+        }
     }
 ]
