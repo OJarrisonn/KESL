@@ -1,4 +1,4 @@
-teams = {
+teamsStats = {
     'arsenal': {
         name: 'Arsenal Football Club',
         country: 'ENGLAND',

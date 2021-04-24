@@ -72,3 +72,20 @@
             }
         ]
     }
+
+    {
+        team1: {
+            id: "juventus",
+            goals: 2,
+            who: [
+                "Federico Chiesa", "Leonardo Bonucci"
+            ]
+        },
+        team2: {
+            id: "inter_milano",
+            goals: 2,
+            who: [
+                "Lautaro Martínez", "Romelu Lukaku"
+            ]
+        }
+    }

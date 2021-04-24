@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="sheets/text_stuff.css">
 
     <link rel="shortcut icon" href="imgs/favicon.png" type="image/png">
+    <script src="scripts/data/results.js"></script>
     <script src="scripts/loadTeams.js"></script>
+    <script src="scripts/loadResults.js"></script>
 </head>
-<body onload="loadTeamsCards();">
+<body onload="loadTeamsCards(); loadLatestResults();">
     <section id="home"></section>
         <header>
             <img class="logo-rtm" src="imgs/logo-rtm-small.png" alt="ROAD TO MADRID">
@@ -40,14 +42,29 @@
             <h3 id="team-card-country"></h3>
         </div>
     </template>
+    
+    <template id="result-row">
+        <div class="knockout-columns">
+            <img id="img-team1" src="" alt="" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto; width: 10vw;">
+            <h2 id="name-team1" style="text-align: right; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;"></h2>
+            <h2 id="goals-team1" style="text-align: center; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;"></h2>
+            <h4>X</h4>
+            <h2 id="goals-team2" style="text-align: center; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;"></h2>
+            <h2 id="name-team2" style="text-align: left; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;"></h2>
+            <img id="img-team2" src="" alt="" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto; width: 10vw;">
+        </div>
+        <div class="result-who">
+            <p id="who-team1" style="margin-right: 2vw; text-align: right;"></p>
+            <br>
+            <p id="who-team2" style="margin-left: 2vw; text-align: left;"></p>
+        </div>
+    </template>
 
     <section id="teams">
         <br>
         <br>
         <h1>TEAMS</h1>
-        <div id="teams-grid" class="teams-grid">
-            
-        </div>
+        <div id="teams-grid" class="teams-grid"></div>
     </section>
 
     <section id="fixtures">
@@ -125,6 +142,8 @@
         <br>
         <h1>LATEST RESULTS</h1>
         <h4 style="font-size: 2vw;">THE COMPETITION HASN'T STARTED</h4>
+        <div id="result-board"></div>
+        <button onclick="location.href='standings.html'" type="button" disabled="disabled">See All</button>
     </section>
     
     <br>

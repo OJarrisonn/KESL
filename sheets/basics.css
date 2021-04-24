@@ -87,6 +87,11 @@ button:hover {
     color: black;
 }
 
+button:disabled {
+    background-image: linear-gradient(135deg, #0a301c, #410944);
+    color: black;
+}
+
 .logo-rtm {
     display: block;
     margin-left: auto;

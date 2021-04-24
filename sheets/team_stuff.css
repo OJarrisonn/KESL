@@ -74,3 +74,11 @@
     grid-template-columns: 15vw 20vw 4vw 5vw 4vw 20vw 15vw;
     grid-template-rows: 15vw;
 }
+
+.result-who {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: -5vw;
+    display: grid;
+    grid-template-columns: 26vw 5vw 26vw;
+}

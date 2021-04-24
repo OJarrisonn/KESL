@@ -1,7 +1,7 @@
 function loadPlayesStats() {
     let team = getQueryVariable('team');
     let players_table = document.getElementById('players-table');
-    let players_data = teams[team].players;
+    let players_data = teamsStatsStats[team].players;
 
     let table_header_row = document.createElement('tr');
     table_header_row.setAttribute('class', 'header');
@@ -61,21 +61,21 @@ function loadTeamStats() {
         document.getElementById("team-rc")
     ];
 
-    title.innerHTML = "KESL " + teams[team].name + " Statistics";
+    title.innerHTML = "KESL " + teamsStats[team].name + " Statistics";
     
     teamIcon.setAttribute('src', 'imgs/teams/'+team+'.png');
     teamIcon.setAttribute('alt', team);
 
-    teamName.innerHTML = teams[team].name;
-    countryName.innerHTML = teams[team].country;
+    teamName.innerHTML = teamsStats[team].name;
+    countryName.innerHTML = teamsStats[team].country;
 
-    team_stats[0].innerHTML = teams[team].team_stats.goals_scored;
-    team_stats[1].innerHTML = teams[team].team_stats.goals_conceded;
-    team_stats[2].innerHTML = teams[team].team_stats.wins;
-    team_stats[3].innerHTML = teams[team].team_stats.draws;
-    team_stats[4].innerHTML = teams[team].team_stats.loses;
-    team_stats[5].innerHTML = teams[team].team_stats.yc;
-    team_stats[6].innerHTML = teams[team].team_stats.rc;
+    team_stats[0].innerHTML = teamsStats[team].team_stats.goals_scored;
+    team_stats[1].innerHTML = teamsStats[team].team_stats.goals_conceded;
+    team_stats[2].innerHTML = teamsStats[team].team_stats.wins;
+    team_stats[3].innerHTML = teamsStats[team].team_stats.draws;
+    team_stats[4].innerHTML = teamsStats[team].team_stats.loses;
+    team_stats[5].innerHTML = teamsStats[team].team_stats.yc;
+    team_stats[6].innerHTML = teamsStats[team].team_stats.rc;
 
     loadPlayesStats();
 
