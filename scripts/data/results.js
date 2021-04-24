@@ -38,5 +38,18 @@ results = [
             "Dani Olmo"
             ]
         }
+    },{
+        team1: {
+            id: "bayern_munchen",
+            goals: 1,
+            who: [
+            "Leroy Sané"
+            ]
+        },
+        team2: {
+            id: "liverpool",
+            goals: 0,
+            who: []
+        }
     }
 ]
