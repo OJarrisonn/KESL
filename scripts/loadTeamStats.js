@@ -1,7 +1,7 @@
 function loadPlayesStats() {
     let team = getQueryVariable('team');
     let players_table = document.getElementById('players-table');
-    let players_data = teamsStatsStats[team].players;
+    let players_data = teamsStats[team].players;
 
     let table_header_row = document.createElement('tr');
     table_header_row.setAttribute('class', 'header');
