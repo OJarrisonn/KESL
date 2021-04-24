@@ -60,7 +60,7 @@ results = [
             ]
         },
         team2: {
-            id: "leicester",
+            id: "leicester_city",
             goals: 0,
             who: []
         }
