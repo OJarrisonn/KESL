@@ -6,11 +6,11 @@ var stands = [
         stands: [
             {
                 id: "juventus",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                stats: [1, 1, 0, 0, 1, 0, 3]
             },
             {
                 id: "inter_milano",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                stats: [1, 0, 0, 1, 0, 1, 0]
             },
             {
                 id: "atalanta",
