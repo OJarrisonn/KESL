@@ -569,12 +569,12 @@ teamsStats = {
     },
     'chelsea': {
         name: 'Chelsea Football Club',
-        country: 'ITALY',
+        country: 'ENGLAND',
         team_stats: {
             goals_scored: 0,
             goals_conceded: 0,
             wins: 0,
-            draws: 0,
+            draws: 1,
             loses: 0,
             yc: 0,
             rc: 0
@@ -582,77 +582,91 @@ teamsStats = {
         players: [
             {
                 name: 'Édouard Mendy',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Reece James',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Thiago Silva',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Kurt Zouma',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Ben Chilwell',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Ngolo Kanté',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Jorginho',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Christian Pulisic',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Kai Havertz',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Mason Mount',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Timo Werner',
-                games: 0,
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Callum Hudson-Odoi',
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Hakim Ziyech',
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
@@ -1167,7 +1181,7 @@ teamsStats = {
             goals_scored: 0,
             goals_conceded: 0,
             wins: 0,
-            draws: 0,
+            draws: 1,
             loses: 0,
             yc: 0,
             rc: 0
@@ -1175,77 +1189,98 @@ teamsStats = {
         players: [
             {
                 name: 'Ederson',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Kyle Walker',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Rubén Dias',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Aymeric Laporte',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'João Cancelo',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Ilkay Gündogan',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Kevin De Bruyne',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Phil Foden',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Riyad Mahrez',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Gabriel Jesus',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Raheem Sterling',
-                games: 0,
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Rodri',
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Bernardo Silva',
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Kun Agüero',
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
