@@ -910,77 +910,105 @@ teamsStats = {
         players: [
             {
                 name: 'Kasper Schmeichel',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Leandro Castagne',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Jonny Evans',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Çaglar Söyüncü',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'James Justin',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Wilfried Ndidi',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Youri Tielemans',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'James Maddison',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Ayoze Pérez',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Jamie Vardy',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Harvey Barnes',
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Kelechi Iheanacho',
                 games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Marc Albrighton',
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Çengiz Ünder',
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Dennis Praet',
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
@@ -1675,77 +1703,98 @@ teamsStats = {
         players: [
             {
                 name: 'Thibault Courtois',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Lucas Vázquez',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Raphaël Varane',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Sergio Ramos',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Ferland Mendy',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Casemiro',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Luka Modric',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Tony Kross',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Rodrygo',
-                games: 0,
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
                 name: 'Karim Benzema',
-                games: 0,
+                games: 1,
+                goals: 0,
+                assist: 1,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Vinícius Júnior',
+                games: 1,
+                goals: 1,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Marco Asensio',
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
                 rc: 0
             },{
-                name: 'Vinícius Júnior',
-                games: 0,
+                name: 'Eden Hazard',
+                games: 1,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Federico Valverde',
+                games: 1,
                 goals: 0,
                 assist: 0,
                 yc: 0,
