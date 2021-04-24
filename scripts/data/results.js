@@ -23,5 +23,46 @@ results = [
             goals: 0,
             who: []
         }
+    },{
+        team1: {
+            id: "atalanta",
+            goals: 1,
+            who: [
+                "Papu Gómez"
+            ]
+        },
+        team2: {
+            id: "rb_leipzig",
+            goals: 1,
+            who: [
+            "Dani Olmo"
+            ]
+        }
+    },{
+        team1: {
+            id: "bayern_munchen",
+            goals: 1,
+            who: [
+            "Leroy Sané"
+            ]
+        },
+        team2: {
+            id: "liverpool",
+            goals: 0,
+            who: []
+        }
+    },{
+        team1: {
+            id: "real_madrid",
+            goals: 1,
+            who: [
+            "Vinícius Júnior"
+            ]
+        },
+        team2: {
+            id: "leicester_city",
+            goals: 0,
+            who: []
+        }
     }
 ]
