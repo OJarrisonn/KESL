@@ -22,11 +22,11 @@ var stands = [
             },
             {
                 id: "real_madrid",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                stats: [1, 1, 0, 0, 1, 0, 3]
             },
             {
                 id: "leicester_city",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                stats: [1, 0, 0, 1, 0, 1, 0]
             },
             {
                 id: "atletico_madrid",
