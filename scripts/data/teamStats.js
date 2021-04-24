@@ -19,9 +19,71 @@ teams = {
                 assist: 0,
                 yc: 0,
                 rc: 0
-            },
-             {
+            },{
+                name: 'Hector Bellerín',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Shkrodan Mustafi',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'David Luiz',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Bukayo Saka',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Pépé',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Thomas Partey',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Mesut Özil',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Grant Xhaka',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
                 name: 'Pierre-Emerick Aubameyang',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Alexander Lacazette',
                 games: 0,
                 goals: 0,
                 assist: 0,
@@ -42,7 +104,86 @@ teams = {
             yc: 0,
             rc: 0
         },
-        players: []
+        players: [
+            {
+                name: 'Pierluigi Gollini',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Rafael Tolói',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'José Luis Palomino',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Berat Djimsiti',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Hans Hateboer',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Marten de Roon',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Remo Freuler',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Robin Gosens',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Josip Ilichic',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Alejandro Gómez',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Duvan Zapata',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            }
+        ]
     },
     'atletico_madrid': {
         name: 'Club Atlético de Madrid',
@@ -56,7 +197,86 @@ teams = {
             yc: 0,
             rc: 0
         },
-        players: []
+        players: [
+            {
+                name: 'Jan Oblak',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Kieran Trippier',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Stefan Savic',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'José Maria Giménez',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Mário Hermoso',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Ángel Correa',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Geoffrey Kondogbia',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Koke',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Thomas Lemar',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'Luís Suárez',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },{
+                name: 'João Félix',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            }
+        ]
     },
     'barcelona': {
         name: 'Fútbol Club Barcelona',
@@ -75,25 +295,89 @@ teams = {
                 name: 'Marc-André Ter Stegen',
                 games: 0,
                 goals: 0,
-                assist: 1,
+                assist: 0,
                 yc: 0,
-                rc: 1
+                rc: 0
             },
             {
                 name: 'Óscar Mingueza',
                 games: 0,
-                goals: 1,
+                goals: 0,
                 assist: 0,
-                yc: 2,
+                yc: 0,
                 rc: 0
             },
             {
                 name: 'Gerard Piqué',
                 games: 0,
-                goals: 1,
+                goals: 0,
                 assist: 0,
                 yc: 0,
-                rc: 2
+                rc: 0
+            },
+            {
+                name: 'Ronald Araújo',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Sergiño Dest',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Sergio Busquets',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Frenkie De Jong',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Jordi Alba',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Pedri González',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Lionel Messi',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
+            },
+            {
+                name: 'Ousmane Dembélé',
+                games: 0,
+                goals: 0,
+                assist: 0,
+                yc: 0,
+                rc: 0
             }
         ]
     },
@@ -319,95 +603,6 @@ teams = {
             yc: 0,
             rc: 0
         },
-        players: [
-            {
-                name: 'Hugo Lloris',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            },
-             {
-                name: 'Toby Alderweireld',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            }, 
-            {
-                name: 'Davinson Sánchez',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            },
-             {
-                name: 'Matt Doherty',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            },
-             {
-                name: 'Sergio Reguilón',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            },
-             {
-                name: 'Giovani Lo Celso',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            },
-             {
-                name: 'Pierre-Emile Højbjerg',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            },
-            {
-                name: 'Gareth Bale',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            },
-            {
-                name: 'Tanguy Ndombelé',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            },
-            {
-                name: 'Son Heung-min',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            },
-            {
-                name: 'Harry Kane',
-                games: 0,
-                goals: 0,
-                assist: 0,
-                yc: 0,
-                rc: 0
-            }
-        ]
+        players: []
     },
 }
