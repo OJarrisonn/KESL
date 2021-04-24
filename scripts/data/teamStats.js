@@ -679,10 +679,10 @@ teamsStats = {
         country: 'ITALY',
         team_stats: {
             goals_scored: 0,
-            goals_conceded: 0,
+            goals_conceded: 1,
             wins: 0,
             draws: 0,
-            loses: 0,
+            loses: 1,
             yc: 0,
             rc: 0
         },
@@ -785,9 +785,9 @@ teamsStats = {
         name: 'Juventus Football Club',
         country: 'ITALY',
         team_stats: {
-            goals_scored: 0,
+            goals_scored: 1,
             goals_conceded: 0,
-            wins: 0,
+            wins: 1,
             draws: 0,
             loses: 0,
             yc: 0,
