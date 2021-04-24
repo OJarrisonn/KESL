@@ -22,7 +22,6 @@ const t20 = ['psg', 'PARIS SAINT-GERMAIN']
 
 const gs_fixtures = [
 [1,
-[t5, t6],
 [t15, t16],
 [t7, t8],
 [t17, t18],
