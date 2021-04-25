@@ -21,12 +21,25 @@ const team_names = {
     'tottenham': 'TOTTENHAM HOTSPUR'
 }
 
-function loadLastFive(rBoard) {
+function loadResults(all) {
+    let rBoard = document.getElementById("result-board");
+    rBoard.innerHTML = ''
 
-}
+    let toShow = [];
 
-function loadAll(rBoard) {
-    results.forEach(result => {
+    if (results.length > 5 && !all) {
+        toShow.push(results[results.length-1]);
+        toShow.push(results[results.length-2]);
+        toShow.push(results[results.length-3]);
+        toShow.push(results[results.length-4]);
+        toShow.push(results[results.length-5]);
+    }else{
+        toShow = results;
+    }
+    
+    for (let i = toShow.length - 1; i > -1; i--) {
+        let result = toShow[i];
+
         let tmplRr = document.getElementById("result-row");
         let rrNode = document.importNode(tmplRr.content, true);
 
@@ -63,13 +76,5 @@ function loadAll(rBoard) {
         });
 
         rBoard.appendChild(rrNode);
-    });
-}
-
-function loadLatestResults() {
-    let board = document.getElementById("result-board");
-    board.innerHTML = ''
-
-    if (results.length > 5) loadLastFive(board);
-    else loadAll(board);
+    };
 }

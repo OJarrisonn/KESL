@@ -6,43 +6,43 @@ var stands = [
         stands: [
             {
                 id: "juventus",
-                stats: [1, 1, 0, 0, 1, 0, 3]
+                pts: teamsStats['juventus'].team_stats.wins * 3 + teamsStats['juventus'].team_stats.draws
             },
             {
                 id: "inter_milano",
-                stats: [1, 0, 0, 1, 0, 1, 0]
+                pts: teamsStats['inter_milano'].team_stats.wins * 3 + teamsStats['inter_milano'].team_stats.draws
             },
             {
                 id: "atalanta",
-                stats: [1, 0, 1, 0, 1, 1, 1]
+                pts: teamsStats['atalanta'].team_stats.wins * 3 + teamsStats['atalanta'].team_stats.draws
             },
             {
                 id: "rb_leipzig",
-                stats: [1, 0, 1, 0, 1, 1, 1]
+                pts: teamsStats['rb_leipzig'].team_stats.wins * 3 + teamsStats['rb_leipzig'].team_stats.draws
             },
             {
                 id: "real_madrid",
-                stats: [1, 1, 0, 0, 1, 0, 3]
+                pts: teamsStats['real_madrid'].team_stats.wins * 3 + teamsStats['real_madrid'].team_stats.draws
             },
             {
                 id: "leicester_city",
-                stats: [1, 0, 0, 1, 0, 1, 0]
+                pts: teamsStats['leicester_city'].team_stats.wins * 3 + teamsStats['leicester_city'].team_stats.draws
             },
             {
                 id: "atletico_madrid",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                pts: teamsStats['atletico_madrid'].team_stats.wins * 3 + teamsStats['atletico_madrid'].team_stats.draws
             },
             {
                 id: "barcelona",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                pts: teamsStats['barcelona'].team_stats.wins * 3 + teamsStats['barcelona'].team_stats.draws
             },
             {
                 id: "tottenham",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                pts: teamsStats['tottenham'].team_stats.wins * 3 + teamsStats['tottenham'].team_stats.draws
             },
             {
                 id: "sevilla",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                pts: teamsStats['sevilla'].team_stats.wins * 3 + teamsStats['sevilla'].team_stats.draws
             }
         ]
     },
@@ -52,43 +52,43 @@ var stands = [
         stands: [
             {
                 id: "chelsea",
-                stats: [1, 0, 1, 0, 0, 0, 1]
+                pts: teamsStats['chelsea'].team_stats.wins * 3 + teamsStats['chelsea'].team_stats.draws
             },
             {
                 id: "manchester_city",
-                stats: [1, 0, 1, 0, 0, 0, 1]
+                pts: teamsStats['manchester_city'].team_stats.wins * 3 + teamsStats['manchester_city'].team_stats.draws
             },
             {
                 id: "bayern_munchen",
-                stats: [1, 1, 0, 0, 1, 0, 3]
+                pts: teamsStats['bayern_munchen'].team_stats.wins * 3 + teamsStats['bayern_munchen'].team_stats.draws
             },
             {
                 id: "liverpool",
-                stats: [1, 0, 0, 1, 0, 1, 0]
+                pts: teamsStats['liverpool'].team_stats.wins * 3 + teamsStats['liverpool'].team_stats.draws
             },
             {
                 id: "manchester_united",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                pts: teamsStats['manchester_united'].team_stats.wins * 3 + teamsStats['manchester_united'].team_stats.draws
             },
             {
                 id: "milan",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                pts: teamsStats['milan'].team_stats.wins * 3 + teamsStats['milan'].team_stats.draws
             },
             {
                 id: "arsenal",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                pts: teamsStats['arsenal'].team_stats.wins * 3 + teamsStats['arsenal'].team_stats.draws
             },
             {
                 id: "bvb",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                pts: teamsStats['bvb'].team_stats.wins * 3 + teamsStats['bvb'].team_stats.draws
             },
             {
                 id: "lille",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                pts: teamsStats['lille'].team_stats.wins * 3 + teamsStats['lille'].team_stats.draws
             },
             {
                 id: "psg",
-                stats: [0, 0, 0, 0, 0, 0, 0]
+                pts: teamsStats['psg'].team_stats.wins * 3 + teamsStats['psg'].team_stats.draws
             }
         ]
     }

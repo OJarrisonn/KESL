@@ -48,10 +48,10 @@ function loadGroupStandings(group_stands, board) {
     table_header[6].innerHTML = "GC";
     table_header[7].innerHTML = "PTS";
 
-    table_header[0].setAttribute('class', 'larger')
+    table_header[0].setAttribute('class', 'larger');
 
     let table_header_row = document.createElement('tr');
-    table_header_row.setAttribute('class', 'header')
+    table_header_row.setAttribute('class', 'header');
 
     table_header.forEach(h => {
         table_header_row.appendChild(h);    
@@ -65,14 +65,26 @@ function loadGroupStandings(group_stands, board) {
         let table_row = [];
 
         for (let i = 0; i < 8; i++) {
-            table_row.push(document.createElement('td'))
+            table_row.push(document.createElement('td'));
         }
     
         table_row[0].innerHTML = teams[st.id];
-        table_row[0].setAttribute('class', 'larger')
+        table_row[0].setAttribute('class', 'larger');
+
+        let cts = teamsStats[st.id].team_stats; // Gets current team stats
+
+        let team_stats = [
+            cts.wins + cts.draws + cts.loses, // Gets the amount of games
+            cts.wins,
+            cts.draws,
+            cts.loses,
+            cts.goals_scored,
+            cts.goals_conceded,
+            cts.wins * 3 + cts.draws // Gets the amount of points
+        ];
 
         for (let j = 0; j < 7; j++) {
-            table_row[j+1].innerHTML = st.stats[j];
+            table_row[j+1].innerHTML = team_stats[j];
         }
 
         for (let k = 0; k < 8; k++) {
@@ -120,6 +132,6 @@ function loadStandings() {
     let stb = document.getElementById("stands-board");
     stb.innerHTML = ''
 
-    if (stands[page].type == "group") loadGroupStandings(stands[page].stands.sort(function(a, b) { return b.stats[6]-a.stats[6]; }), stb);
+    if (stands[page].type == "group") loadGroupStandings(stands[page].stands.sort(function(a, b) { return b.pts-a.pts; }), stb);
     else if (stands[page].type == "knockout") loadKnockoutStandings(stands[page].stands, stb);
 }
