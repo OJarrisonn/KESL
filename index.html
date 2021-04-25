@@ -15,7 +15,7 @@
     <script src="scripts/loadTeams.js"></script>
     <script src="scripts/loadResults.js"></script>
 </head>
-<body onload="loadTeamsCards(); loadLatestResults();">
+<body onload="loadTeamsCards(); loadResults(false);">
     <section id="home"></section>
         <header>
             <img class="logo-rtm" src="imgs/logo-rtm-small.png" alt="ROAD TO MADRID">
@@ -142,7 +142,7 @@
         <br>
         <h1>LATEST RESULTS</h1>
         <div id="result-board"></div>
-        <button onclick="location.href='standings.html'" type="button" disabled="disabled">See All</button>
+        <button onclick="location.href='results.html'" type="button">See All</button>
     </section>
     
     <br>

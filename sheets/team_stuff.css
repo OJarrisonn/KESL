@@ -82,3 +82,8 @@
     display: grid;
     grid-template-columns: 26vw 5vw 26vw;
 }
+
+.separator {
+    height: 2vw;
+    background-image: linear-gradient(135deg, #0a301c, #410944);
+}
