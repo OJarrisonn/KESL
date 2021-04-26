@@ -22,7 +22,7 @@ const t20 = ['psg', 'PARIS SAINT-GERMAIN']
 
 const gs_fixtures = [
 [
-    "GS Round 1",
+    "Group Stage Round 1",
     [t1, t2],
     [t11, t12],
     [t3,t4],
@@ -34,7 +34,7 @@ const gs_fixtures = [
     [t9, t10],
     [t19, t20]
 ],[
-    "GS Round 2", 
+    "Group Stage Round 2", 
     [t2, t10],
     [t12, t20],
     [t8, t9],
@@ -46,7 +46,7 @@ const gs_fixtures = [
     [t1, t3],
     [t11, t13]
 ],[
-    "GS Round 3", 
+    "Group Stage Round 3", 
     [t3, t2],
     [t13, t12],
     [t5, t1],
@@ -58,7 +58,7 @@ const gs_fixtures = [
     [t10, t8],
     [t20, t18]
 ],[
-    "GS Round 4", 
+    "Group Stage Round 4", 
     [t2, t8],
     [t12, t18],
     [t6, t10],
@@ -69,7 +69,7 @@ const gs_fixtures = [
     [t11, t17],
     [t3, t5],
     [t13, t15]
-],["GS Round 5", [t5, t2],
+],["Group Stage Round 5", [t5, t2],
     [t15, t12],
     [t7, t3],
     [t17, t13],
@@ -80,7 +80,7 @@ const gs_fixtures = [
     [t8, t6],
     [t18, t16]
 ],[
-    "GS Round 6", 
+    "Group Stage Round 6", 
     [t2, t6],
     [t12, t16],
     [t4, t8],
@@ -92,7 +92,7 @@ const gs_fixtures = [
     [t5, t7],
     [t15, t17]
 ],[
-    "GS Round 7", 
+    "Group Stage Round 7", 
     [t7, t2],
     [t17, t12],
     [t9, t5],
@@ -103,7 +103,7 @@ const gs_fixtures = [
     [t18, t11],
     [t6, t4],
     [t16, t14]
-],["GS Round 8", 
+],["Group Stage Round 8", 
     [t2, t4],
     [t12, t14],
     [t1, t6],
@@ -114,7 +114,7 @@ const gs_fixtures = [
     [t15, t20],
     [t7, t9],
     [t17, t19]
-],["GS Round 9", 
+],["Group Stage Round 9", 
     [t9, t2],
     [t19, t12],
     [t10, t7],
@@ -126,7 +126,7 @@ const gs_fixtures = [
     [t4, t1],
     [t14, t11]
 ],[
-    "GS Round 10", 
+    "Group Stage Round 10", 
     [t2, t9],
     [t12, t19],
     [t7, t10],
@@ -138,7 +138,7 @@ const gs_fixtures = [
     [t1, t4],
     [t11, t14]
 ],[
-    "GS Round 11", 
+    "Group Stage Round 11", 
     [t4, t2],
     [t14, t12],
     [t6, t1],
@@ -150,7 +150,7 @@ const gs_fixtures = [
     [t9, t7],
     [t19, t17]
 ],[
-    "GS Round 12", 
+    "Group Stage Round 12", 
     [t2, t7],
     [t12, t17],
     [t5, t9],
@@ -162,7 +162,7 @@ const gs_fixtures = [
     [t4, t6],
     [t14, t16]
 ],[
-    "GS Round 13", 
+    "Group Stage Round 13", 
     [t6, t2],
     [t16, t12],
     [t8, t4],
@@ -174,7 +174,7 @@ const gs_fixtures = [
     [t7, t5],
     [t17, t15]
 ],[
-    "GS Round 14", 
+    "Group Stage Round 14", 
     [t2, t5],
     [t12, t15],
     [t3, t7],
@@ -186,7 +186,7 @@ const gs_fixtures = [
     [t6, t8],
     [t16, t18]
 ],[
-    "GS Round 15", 
+    "Group Stage Round 15", 
     [t8, t2],
     [t18, t12],
     [t10, t6],
@@ -198,7 +198,7 @@ const gs_fixtures = [
     [t5, t3],
     [t15, t13]
 ],[
-    "GS Round 16", 
+    "Group Stage Round 16", 
     [t2, t3],
     [t12, t13],
     [t1, t5],
@@ -210,7 +210,7 @@ const gs_fixtures = [
     [t8, t10],
     [t18, t20]
 ],[
-    "GS Round 17", 
+    "Group Stage Round 17", 
     [t10, t2],
     [t20, t12],
     [t9, t8],
@@ -222,7 +222,7 @@ const gs_fixtures = [
     [t3, t1],
     [t13, t11]
 ],[
-    "GS Round 18", 
+    "Group Stage Round 18", 
     [t2, t1],
     [t12, t11],
     [t4, t3],
@@ -306,4 +306,50 @@ function loadGroupStageFixtures() {
         }
         rn.innerHTML = gs_fixtures[round-1][0];
     }
+}
+
+function loadLastFixtures() {
+    let rn = document.getElementById("round-name");
+    let rb = document.getElementById("fixture-rows");
+    rb.innerHTML = ''
+
+    let sep = document.createElement('div');
+    sep.setAttribute('class', 'separator');
+
+    rn.innerHTML = gs_fixtures[current_round-1][0];
+
+    let toShow = [];
+
+    if (current_fixture > gs_fixtures[current_round-1].length - 5) {
+        for (let i = gs_fixtures[current_round-1].length - 5; i < gs_fixtures[current_round-1].length; i++) {
+            toShow.push(gs_fixtures[current_round-1][i]);
+        }
+    } else {
+        for (let j = current_fixture; j < current_fixture + 5; j++) {
+            toShow.push(gs_fixtures[current_round-1][j]);
+        }
+    }
+
+    toShow.forEach(fixture => {
+        let tmplFx = document.getElementById("fixture-row");
+        let fxNode = document.importNode(tmplFx.content, true);
+
+        let it1 = fxNode.getElementById('img-team1');
+        let it2 = fxNode.getElementById('img-team2');
+        let nt1 = fxNode.getElementById('name-team1');
+        let nt2 = fxNode.getElementById('name-team2');
+
+        it1.setAttribute('src', 'imgs/teams/' + fixture[0][0] + '.png');
+        it2.setAttribute('src', 'imgs/teams/' + fixture[1][0] + '.png');
+        it1.setAttribute('alt', fixture[0][1]);
+        it2.setAttribute('alt', fixture[1][1]);
+
+        nt1.innerHTML = fixture[0][1];
+        nt2.innerHTML = fixture[1][1];
+
+        if (fixture.toString() === gs_fixtures[current_round-1][current_fixture].toString()) {}
+
+        rb.appendChild(fxNode);
+
+    });
 }
