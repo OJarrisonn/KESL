@@ -30,11 +30,10 @@
 }
 
 .round-header {
+    justify-content: center;
     display: grid;
     grid-template-columns: 10vw 25vw 10vw;
     grid-template-rows: 10vw;
-    margin-left: 27.5vw;
-    margin-right: 27.5vw;
 }
 
 .round-header button {
@@ -57,19 +56,18 @@
 .fixtures-rows {
     display: grid;
     grid-template-rows: 15vw 15vw 15vw 15vw 15vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
+    justify-content: center;
 }
 
 .fixtures-columns {
+    justify-content: center;
     display: grid;
     grid-template-columns: 15vw 20vw 5vw 20vw 15vw;
     grid-template-rows: 15vw;
 }
 
 .knockout-columns {
-    margin-left: 7vw;
-    margin-right: 7vw;
+    justify-content: center;
     display: grid;
     grid-template-columns: 15vw 20vw 4vw 5vw 4vw 20vw 15vw;
     grid-template-rows: 15vw;
@@ -85,5 +83,9 @@
 
 .separator {
     height: 2vw;
+    background-image: linear-gradient(135deg, #0a301c, #410944);
+}
+
+.current-fixture {
     background-image: linear-gradient(135deg, #0a301c, #410944);
 }

@@ -1,4 +1,4 @@
-const teams = [['arsenal', 'ARSENAL', 'ENG'],
+let teams = [['arsenal', 'ARSENAL', 'ENG'],
 ['atalanta', 'ATALANTA', 'ITA'],
 ['atletico_madrid', 'ATLÉTICO DE MADRID', 'SPA'],
 ['barcelona', 'BARCELONA', 'SPA'],

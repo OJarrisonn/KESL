@@ -7,15 +7,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sheets/basics.css">
+    <link rel="stylesheet" href="sheets/table_stuff.css">
     <link rel="stylesheet" href="sheets/team_stuff.css">
     <link rel="stylesheet" href="sheets/text_stuff.css">
 
     <link rel="shortcut icon" href="imgs/favicon.png" type="image/png">
     <script src="scripts/data/results.js"></script>
+    <script src="scripts/data/teamStats.js"></script>
+    <script src="scripts/data/standings.js"></script>
     <script src="scripts/loadTeams.js"></script>
+    <script src="scripts/loadStandings.js"></script>
+    <script src="scripts/loadFixtures.js"></script>
+    <script src="scripts/loadTopStats.js"></script>
+
     <script src="scripts/loadResults.js"></script>
 </head>
-<body onload="loadTeamsCards(); loadResults(false);">
+<body onload="loadTeamsCards(); loadResults(false); loadStandings(); loadLastFixtures(); loadTopStats(); ">
     <section id="home"></section>
         <header>
             <img class="logo-rtm" src="imgs/logo-rtm-small.png" alt="ROAD TO MADRID">
@@ -28,11 +35,12 @@
     </section>
 
     <nav>
-        <a href="#home" class="navcenter">Home</a>
+        <a href="#home">Home</a>
         <a href="#teams">Teams</a>
         <a href="#fixtures">Fixtures</a>
-        <a href="#results" class="navright">Latest Results</a>
-        <a href="#standings" class="navright">Standings</a>
+        <a href="#results">Results</a>
+        <a href="#standings">Standings</a>
+        <a href="#top-stats">Statistics</a>
     </nav>
 
     <template id="template-team-card">
@@ -60,6 +68,28 @@
         </div>
     </template>
 
+    <template id="knockout-standing">
+        <div class="knockout-columns">
+            <img id="img-team1" src="" alt="" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto; width: 10vw;">
+            <h2 id="name-team1" style="text-align: right; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;"></h2>
+            <h2 id="goals-team1" style="text-align: left; font-size: 2vw; margin-top: auto; margin-bottom: auto;"></h2>
+            <h4>X</h4>
+            <h2 id="goals-team2" style="text-align: right; font-size: 2vw; margin-top: auto; margin-bottom: auto;"></h2>
+            <h2 id="name-team2" style="text-align: left; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;"></h2>
+            <img id="img-team2" src="" alt="" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto; width: 10vw;">
+        </div>
+    </template>
+
+    <template id="fixture-row">
+        <div class="fixtures-columns">
+            <img id="img-team1" src="" alt="" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
+            <h2 id="name-team1" style="text-align: right; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;"></h2>
+            <h4>X</h4>
+            <h2 id="name-team2" style="text-align: left; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;"></h2>
+            <img id="img-team2" src="" alt="" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
+        </div>
+    </template>
+
     <section id="teams">
         <br>
         <br>
@@ -72,66 +102,10 @@
         <br>
         <h1>FIXTURES</h1>
 
-        <div class="fixtures-rows">
-            <div class="fixtures-columns">
-                <img src="imgs/teams/juventus.png" alt="JUVENTUS" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
-                <h2 style="text-align: right; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;">
-                    JUVENTUS
-                </h2>
-                <h4>X</h4>
-                <h2 style="text-align: left; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;">
-                    INTER MILANO
-                </h2>
-                <img src="imgs/teams/inter_milano.png" alt="INTER MILANO" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
-            </div>
+        <h1 id="round-name"></h1>
 
-            <div class="fixtures-columns">
-                <img src="imgs/teams/chelsea.png" alt="CHELSEA" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
-                <h2 style="text-align: right; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;">
-                    CHELSEA
-                </h2>
-                <h4>X</h4>
-                <h2 style="text-align: left; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;">
-                    MANCHESTER CITY
-                </h2>
-                <img src="imgs/teams/manchester_city.png" alt="MANCHESTER CITY" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
-            </div>
-
-            <div class="fixtures-columns">
-                <img src="imgs/teams/atalanta.png" alt="ATALANTA" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
-                <h2 style="text-align: right; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;">
-                    ATALANTA
-                </h2>
-                <h4>X</h4>
-                <h2 style="text-align: left; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;">
-                    RB LEIPZIG
-                </h2>
-                <img src="imgs/teams/rb_leipzig.png" alt="RB LEIPZIG" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
-            </div>
-
-            <div class="fixtures-columns">
-                <img src="imgs/teams/bayern_munchen.png" alt="BAYERN MÜNCHEN" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
-                <h2 style="text-align: right; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;">
-                    BAYERN MÜNCHEN
-                </h2>
-                <h4>X</h4>
-                <h2 style="text-align: left; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;">
-                    LIVERPOOL
-                </h2>
-                <img src="imgs/teams/liverpool.png" alt="LIVERPOOL" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
-            </div>
-
-            <div class="fixtures-columns">
-                <img src="imgs/teams/real_madrid.png" alt="REAL MADRID" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
-                <h2 style="text-align: right; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-right: 2vw;">
-                    REAL MADRID
-                </h2>
-                <h4>X</h4>
-                <h2 style="text-align: left; font-size: 2vw; margin-top: auto; margin-bottom: auto; margin-left: 2vw;">
-                    LEICESTER CITY
-                </h2>
-                <img src="imgs/teams/leicester_city.png" alt="LEICESTER CITY" class="team-icon" style="display: block; margin-top: auto; margin-bottom: auto;">
-            </div>
+        <div id="fixture-rows" class="fixtures-rows">
+            
         </div>
 
         <button onclick="location.href='gs-fixtures.html'" type="button">See All</button>
@@ -151,7 +125,39 @@
         <br>
         <br>
         <h1>STANDINGS</h1>
+        <div class="round-header">
+            <button onclick="changePage(-1); loadStandings();">&lt;</button>
+            <h1 id="stand-name"></h1>
+            <button onclick="changePage(1); loadStandings();">&gt;</button>
+        </div>
+        
+        <div id="stands-board"></div>
+    
         <button onclick="location.href='standings.html'" type="button">See All</button>
+    </section>
+
+    <section id="top-stats">
+        <br>
+        <br>
+        <h1>TOP STATS</h1>
+        <br>
+        <h2>Top Scorers</h2>
+        <table id="ts-table">
+            <tr class="header">
+                <th class="larger">NAME</th>
+                <th>G</th>
+                <th>GS</th>
+            </tr>
+        </table>
+        <br>
+        <h2>Top Assisters</h2>
+        <table id="ta-table">
+            <tr class="header">
+                <th class="larger">NAME</th>
+                <th>G</th>
+                <th>AS</th>
+            </tr>
+        </table>
     </section>
 
     <footer>

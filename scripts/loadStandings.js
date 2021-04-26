@@ -1,4 +1,4 @@
-const teams = {
+let teamsNames = {
     'arsenal': 'ARSENAL',
     'atalanta': 'ATALANTA',
     'atletico_madrid': 'ATLÉTICO DE MADRID',
@@ -68,7 +68,7 @@ function loadGroupStandings(group_stands, board) {
             table_row.push(document.createElement('td'));
         }
     
-        table_row[0].innerHTML = teams[st.id];
+        table_row[0].innerHTML = teamsNames[st.id];
         table_row[0].setAttribute('class', 'larger');
 
         let cts = teamsStats[st.id].team_stats; // Gets current team stats
@@ -112,11 +112,11 @@ function loadKnockoutStandings(ko_stands, board) {
         t1img.setAttribute('src', 'imgs/teams/' + stand.team1.id + '.png');
         t2img.setAttribute('src', 'imgs/teams/' + stand.team2.id + '.png');
 
-        t1img.setAttribute('alt', teams[stand.team1.id]);
-        t2img.setAttribute('alt', teams[stand.team2.id]);
+        t1img.setAttribute('alt', teamsNames[stand.team1.id]);
+        t2img.setAttribute('alt', teamsNames[stand.team2.id]);
 
-        t1name.innerHTML = teams[stand.team1.id];
-        t2name.innerHTML = teams[stand.team2.id];
+        t1name.innerHTML = teamsNames[stand.team1.id];
+        t2name.innerHTML = teamsNames[stand.team2.id];
 
         t1goals.innerHTML = stand.team1.goals;
         t2goals.innerHTML = stand.team2.goals;

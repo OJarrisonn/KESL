@@ -28,11 +28,11 @@ function loadResults(all) {
     let toShow = [];
 
     if (results.length > 5 && !all) {
-        toShow.push(results[results.length-1]);
-        toShow.push(results[results.length-2]);
-        toShow.push(results[results.length-3]);
-        toShow.push(results[results.length-4]);
         toShow.push(results[results.length-5]);
+        toShow.push(results[results.length-4]);
+        toShow.push(results[results.length-3]);
+        toShow.push(results[results.length-2]);
+        toShow.push(results[results.length-1]);
     }else{
         toShow = results;
     }
