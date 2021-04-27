@@ -12,10 +12,10 @@ body {
 
 footer {
     display: grid;
-    grid-template-columns: 5vw 95vw;
+    grid-template-columns: auto 80vw auto;
+    grid-template-rows: 5vw;
 
     background-image: linear-gradient(135deg, #7af6b5, #ee10fb);
-    height: 5vw;
     text-align: center;
     margin-top: 5vw;
 }
